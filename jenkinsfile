@@ -16,7 +16,7 @@ pipeline
         
         exec_role_arn = "arn:aws:iam::387232581030:role/ecsTaskExecutionRole"
         
-        TASK_DEFINITION_NAME = "NEW-TASK-DEFINITION-JEN"
+        TASK_DEFINITION_NAME = "TASKDEFINITION-LARAVEL"
   
         SERVICE_NAME = "JEN-SERVICE"
     }
