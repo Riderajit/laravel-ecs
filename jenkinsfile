@@ -9,8 +9,8 @@ pipeline
         VERSION = "${env.BUILD_ID}-${env.GIT_COMMIT}"
         
         docker_repo_uri = "387232581030.dkr.ecr.us-east-1.amazonaws.com/jen-ecr"
-        
-        task_def_arn = "arn:aws:ecs:us-east-1:387232581030:task-definition/NEW-TASK-DEFINITION-JEN:1"
+       
+        task_def_arn = "arn:aws:ecs:us-east-1:387232581030:task-definition/TASKDEFINITION-LARAVEL:6"
         
         cluster = "JEN-ECS"
         
